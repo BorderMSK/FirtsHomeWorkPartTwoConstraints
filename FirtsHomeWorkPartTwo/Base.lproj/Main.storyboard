@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FirtsHomeWorkPartTwo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="omU-XL-BGI">
-                                <rect key="frame" x="20" y="64" width="388" height="394"/>
+                                <rect key="frame" x="64" y="20" width="768" height="166.66666666666666"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TOI-iA-Lez">
-                                <rect key="frame" x="20" y="478" width="388" height="394"/>
+                                <rect key="frame" x="64" y="206.66666666666663" width="768" height="166.33333333333337"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
@@ -31,7 +31,6 @@
                             <constraint firstItem="TOI-iA-Lez" firstAttribute="height" secondItem="omU-XL-BGI" secondAttribute="height" id="GW8-Vg-bc2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="omU-XL-BGI" secondAttribute="trailing" constant="20" id="Lod-cp-kVS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TOI-iA-Lez" secondAttribute="bottom" constant="20" id="R3T-zu-X9i"/>
-                            <constraint firstItem="TOI-iA-Lez" firstAttribute="width" secondItem="omU-XL-BGI" secondAttribute="width" id="WhR-uW-TtM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TOI-iA-Lez" secondAttribute="trailing" constant="20" id="arz-Zb-26o"/>
                             <constraint firstItem="omU-XL-BGI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="b8d-Ud-OPd"/>
                             <constraint firstItem="omU-XL-BGI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="cSj-LM-ohI"/>
